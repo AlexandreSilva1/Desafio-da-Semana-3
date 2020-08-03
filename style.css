@@ -1,0 +1,120 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    background: linear-gradient(#48D1CC, #00CED1, 	#40E0D0);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 50px;
+}
+
+.menu-nav{
+    padding: 22px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu-nav a{
+    text-decoration: none;
+    padding: 23px;
+    color: black;
+    font-size: 18px;
+    min-height: 30vh;
+
+}
+
+.menu-nav a:hover{
+    background: white;
+}
+
+.logo{
+    width: 50px;
+}
+
+.nome{
+    font-size: 25px;
+    background-size: cover;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+
+.msg{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.copyright{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.botao{
+    border: 1px solid #00CED1;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-shadow: 3px 3px black;
+    align-items: center;
+}
+
+.texto{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.sobre{
+    text-align: center;
+}
+
+.esquerda {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.direita {
+    text-align: right;
+    margin-left: 190px;
+}
+
+.coluna {
+    float: left;
+    bottom: 3px;
+    position: relative;
+  }
+
+.coluna.dois {
+    width: 40%;
+}
+
+.footer {
+    background: linear-gradient(#48D1CC, #00CED1, 	#40E0D0);
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 0 50px 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: black;
+    font-size: 12px;
+}
